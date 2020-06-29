@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 06/10/2018 08:32
+    Creation date: 29/06/2020 16:59
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,10 +37,10 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-layers:before { content: "\f100"; }
-.flaticon-compass-symbol:before { content: "\f101"; }
-.flaticon-idea:before { content: "\f102"; }
+    .flaticon-dna:before { content: "\f100"; }
+.flaticon-virus:before { content: "\f101"; }
+.flaticon-pregnant:before { content: "\f102"; }
     
-    $font-Flaticon-layers: "\f100";
-    $font-Flaticon-compass-symbol: "\f101";
-    $font-Flaticon-idea: "\f102";
+    $font-Flaticon-dna: "\f100";
+    $font-Flaticon-virus: "\f101";
+    $font-Flaticon-pregnant: "\f102";
