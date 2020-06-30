@@ -8188,7 +8188,6 @@ h1, h2, h3, h4, h5,
         font-weight: 700;
         color: #000000; }
 
-
 .navbar-brand {
   font-weight: 700;
   font-size: 22px;
@@ -8377,7 +8376,7 @@ h1, h2, h3, h4, h5,
     .project .text span {
       font-weight: 500;
       font-size: 14px;
-      text-transform: uppercase;
+      /*text-transform: uppercase;*/
       letter-spacing: 2px;
       color: rgba(0, 0, 0, 0.2); }
     .project .text h3 {
@@ -9205,7 +9204,7 @@ textarea.form-control {
   .blog-entry span.day {
     font-size: 50px;
     font-weight: 400;
-    color: #000000;
+    color: #5a7ee5;
     line-height: 1;
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); }
   .blog-entry span.yr, .blog-entry span.mos {
@@ -9213,7 +9212,7 @@ textarea.form-control {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 500;
-    color: black;
+    color: #5a7ee5;
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); }
 
 .block-23 ul {
