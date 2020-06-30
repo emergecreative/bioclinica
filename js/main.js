@@ -73,6 +73,7 @@
 
 			if ( $('#ftco-nav').is(':visible') ) {
 				$(this).removeClass('active');
+				console.log('sou eu!');
 			} else {
 				$(this).addClass('active');	
 			}
@@ -384,3 +385,10 @@
 
 })(jQuery);
 
+
+window.addEventListener('load',function (){
+	let contato = document.getElementById('contato');
+	contato.addEventListener('click', function (){
+		window.location.href = "contato.html";
+	});
+});
