@@ -8047,6 +8047,8 @@ h1, h2, h3, h4, h5,
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand span {
       color: #fff; }
+
+
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
@@ -8100,6 +8102,10 @@ h1, h2, h3, h4, h5,
     background: transparent;
     background: none;
     color: #ffffff; }
+
+    .ftco-navbar-light .color{
+      display: none; }
+
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
       color: #001967; } }
@@ -8186,7 +8192,14 @@ h1, h2, h3, h4, h5,
       padding-bottom: 1rem; }
       .ftco-navbar-light.scrolled .navbar-brand span {
         font-weight: 700;
-        color: #000000; }
+        color: #000000;}
+        .ftco-navbar-light.scrolled .navbar-brand span .white {
+          display: none;
+        }
+
+        .ftco-navbar-light.scrolled .navbar-brand span .color {
+          display: inline;
+        }
 
 .navbar-brand {
   font-weight: 700;
@@ -8761,8 +8774,9 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
-  z-index: 0; }
+  padding: 5em 0 0em 0;
+  z-index: 0;
+  }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -9559,4 +9573,13 @@ textarea.form-control {
 #logo-bio{
   font-family: "Montserrat", Arial, sans-serif;
   text-transform: none;
+}
+  #logo-bio img{
+    padding-bottom: 5px;
+    margin-right: 7px;
+  }
+
+.linha-footer{
+  border-top: .1px solid #989494;
+  padding-top: 15px;
 }

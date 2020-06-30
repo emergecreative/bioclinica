@@ -73,6 +73,7 @@
 
 			if ( $('#ftco-nav').is(':visible') ) {
 				$(this).removeClass('active');
+				console.log('sou eu!');
 			} else {
 				$(this).addClass('active');	
 			}
