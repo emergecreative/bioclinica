@@ -9610,7 +9610,9 @@ textarea.form-control {
 
 }
   .centralizar-btn a{
-      margin: auto;
+      /*margin: auto;
       justify-content: center;
-      width: max-content;
+      width: max-content;*/
+      font-size: 15px;
+      letter-spacing: 0;
   }
