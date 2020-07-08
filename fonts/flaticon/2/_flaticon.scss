@@ -1,9 +1,9 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 08/07/2020 18:23
-  	*/
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 08/07/2020 17:51
+    */
 
-@font-face {
+    @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -22,29 +22,33 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-  
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
   font-style: normal;
-  margin: 0px;
-}
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
 
-.flaticon-whatsapp:before { content: "\f100"; }
+    .flaticon-whatsapp:before { content: "\f100"; }
 .flaticon-up-arrow:before { content: "\f101"; }
 .flaticon-chevron-up:before { content: "\f102"; }
 .flaticon-chevron-arrow-up:before { content: "\f103"; }
 .flaticon-coronavirus:before { content: "\f104"; }
 .flaticon-maternity:before { content: "\f105"; }
 .flaticon-physics:before { content: "\f106"; }
-.flaticon-dna:before { content: "\f107"; }
-.flaticon-thyroid-gland:before { content: "\f108"; }
-.flaticon-capsules:before { content: "\f109"; }
-.flaticon-laboratory:before { content: "\f10a"; }
-.flaticon-lab-tool:before { content: "\f10b"; }
-.flaticon-chemistry:before { content: "\f10c"; }
-.flaticon-parasite:before { content: "\f10d"; }
-.flaticon-immunity:before { content: "\f10e"; }
-.flaticon-two-spermatozoon:before { content: "\f10f"; }
-.flaticon-cell:before { content: "\f110"; }
-.flaticon-research:before { content: "\f111"; }
+    
+    $font-Flaticon-whatsapp: "\f100";
+    $font-Flaticon-up-arrow: "\f101";
+    $font-Flaticon-chevron-up: "\f102";
+    $font-Flaticon-chevron-arrow-up: "\f103";
+    $font-Flaticon-coronavirus: "\f104";
+    $font-Flaticon-maternity: "\f105";
+    $font-Flaticon-physics: "\f106";

@@ -5,7 +5,7 @@ window.addEventListener('load',function (){
 		window.location.href = "contato.html";
     });
     
-    inicio.addEventListener('click', function(){
+    inicio.addEventListener('click', function (){
         window.location.href = "index.html";
     });
 });

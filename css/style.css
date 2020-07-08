@@ -9640,12 +9640,24 @@ textarea.form-control {
 }
 
 .back-to-top i {
-  font-size: 24px;
+  font-size: 41px;
   position: absolute;
+  top: -16px;
 }
 
 .back-to-top:hover {
   color: #fff;
   background: #86c0da;
   transition: background 0.2s ease-in-out;
+}
+
+
+/*--------------------------------------------------------
+
+#Serviços
+
+----------------------------------------------------------*/
+
+#servicos {
+  padding-top: 50px !important;
 }
