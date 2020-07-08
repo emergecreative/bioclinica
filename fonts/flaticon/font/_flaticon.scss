@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 08/07/2020 14:05
+    Creation date: 08/07/2020 17:22
     */
 
     @font-face {
@@ -38,5 +38,11 @@
     }
 
     .flaticon-whatsapp:before { content: "\f100"; }
+.flaticon-up-arrow:before { content: "\f101"; }
+.flaticon-chevron-up:before { content: "\f102"; }
+.flaticon-chevron-arrow-up:before { content: "\f103"; }
     
     $font-Flaticon-whatsapp: "\f100";
+    $font-Flaticon-up-arrow: "\f101";
+    $font-Flaticon-chevron-up: "\f102";
+    $font-Flaticon-chevron-arrow-up: "\f103";
