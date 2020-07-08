@@ -1,9 +1,9 @@
-    /*
-    Flaticon icon font: Flaticon
-    Creation date: 08/07/2020 14:05
-    */
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 29/06/2020 16:59
+  	*/
 
-    @font-face {
+@font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -22,21 +22,18 @@
   }
 }
 
-    .fi:before{
-        display: inline-block;
-  font-family: "Flaticon";
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-rendering: optimizeLegibility;
   text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-    }
+  line-height: 1;
+/*font-style: normal;
+margin-left: 20px;*/
+}
 
-    .flaticon-whatsapp:before { content: "\f100"; }
-    
-    $font-Flaticon-whatsapp: "\f100";
+.flaticon-dna:before { content: "\f100"; }
+.flaticon-virus:before { content: "\f101"; }
+.flaticon-pregnant:before { content: "\f102"; }
