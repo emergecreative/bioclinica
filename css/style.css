@@ -9620,3 +9620,32 @@ textarea.form-control {
 .h1-weight{
   font-weight: 700 !important;
 }
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #072059;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 10;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: #86c0da;
+  transition: background 0.2s ease-in-out;
+}
