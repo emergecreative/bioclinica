@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 29/06/2020 16:59
+  	Creation date: 08/07/2020 17:51
   	*/
 
 @font-face {
@@ -25,15 +25,15 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
+  font-size: 40px;
   font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-/*font-style: normal;
-margin-left: 20px;*/
+  margin: 0px;
 }
 
-.flaticon-dna:before { content: "\f100"; }
-.flaticon-virus:before { content: "\f101"; }
-.flaticon-pregnant:before { content: "\f102"; }
+.flaticon-whatsapp:before { content: "\f100"; }
+.flaticon-up-arrow:before { content: "\f101"; }
+.flaticon-chevron-up:before { content: "\f102"; }
+.flaticon-chevron-arrow-up:before { content: "\f103"; }
+.flaticon-coronavirus:before { content: "\f104"; }
+.flaticon-maternity:before { content: "\f105"; }
+.flaticon-physics:before { content: "\f106"; }
