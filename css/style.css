@@ -9678,3 +9678,16 @@ textarea.form-control {
 .centro {
   justify-content: center;
 }
+
+.contato-duvida {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 7px
+}
+  .contato-duvida button {
+    max-width: fit-content;
+  }
+.white {
+  color: white !important
+}
